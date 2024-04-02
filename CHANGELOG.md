@@ -11,11 +11,11 @@
 * Performance: use `SecCodeSigning` instead of `codesign` sys-call
 * Fix codesign unkown param on <10.15 (`--xml` flag)
 * Fix crash if a plist key is not present (e.g. `CFBundleShortVersionString` for some old iOS 3.2 ipa)
-* Fix fixed-width size for  preview of app-icon  (consistency)
+* Fix fixed-width size for preview of app-icon (consistency)
 * Fix `IconFlavor` attribute for thumbnail drawing in 10.15+
-* Fix prefer icons without "small" siffix
+* Fix prefer icons without "small" suffix
 * Minor html template improvements
-* Some refactoring to reduce duplicate code 
+* Some refactoring to reduce duplicate code
 
 ## Version 1.6.4
 
